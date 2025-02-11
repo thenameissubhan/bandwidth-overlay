@@ -1,0 +1,45 @@
+# 📌 **Bandwidth Overlay - User Guide**
+
+This guide explains how to use the **Bandwidth Overlay**, including how to **lock/unlock its position** and optionally **set it to start automatically** at system boot.
+
+---
+
+## 🎮 **How to Use the Overlay**
+
+- **Move the Overlay:** 🖱️ Click and drag it anywhere on your screen.  
+- **Lock the Position:** 🔒 **Double left-click (`Left Mouse Button x2`)** to lock it in place.  
+- **Unlock the Position:** 🔓 **Double right-click (`Right Mouse Button x2`)** to enable dragging again.  
+
+Once locked, the overlay will **remember its position** even after restarting your PC or reopening the program.
+
+---
+
+## 🔄 **Optional: Run the Overlay on Startup**
+
+If you want the overlay to start **automatically every time you turn on your computer**, follow these steps:
+
+### **Step 1: Open Task Scheduler**
+1. Press **`Win + R`**, type **`taskschd.msc`**, and hit **Enter**.
+
+### **Step 2: Create a New Task**
+1. Click **"Create Basic Task..."** on the right-hand side.
+2. Name it something like **"Bandwidth Overlay"** and click **Next**.
+3. Select **"When I log on"** and click **Next**.
+4. Choose **"Start a Program"** and click **Next**.
+
+### **Step 3: Select the Python Script**
+1. Click **Browse** and select **`python.exe`**.  
+   - Typically located at: `C:\Users\YourName\AppData\Local\Programs\Python\Python3X\python.exe`  
+2. In the **"Add arguments"** field, enter:  
+   ```
+   "D:\bandwidth overlay\bandwidth_overlay.py"
+   ```
+3. Click **Next**, then **Finish**.
+
+Now, the overlay will **automatically launch** at startup. If you ever want to disable it, simply **delete the task** from Task Scheduler.
+
+---
+
+### ✅ **Done! Enjoy Real-Time Bandwidth Monitoring 🚀**
+
+
