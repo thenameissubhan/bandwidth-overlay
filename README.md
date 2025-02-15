@@ -10,4 +10,4 @@ Please read the overlay_usage_guide—it's important.
 
 ![Screenshot 2025-02-11 220429](https://github.com/user-attachments/assets/7534e4f9-ef52-4260-9d46-b3a0fca8a6f6)
 
-I noticed that in GTA 5, the fullscreen overlay isn't showing. Please use borderless windowed mode to see the overlay.
+I noticed that in GTA 5 fullscreen, overlay isn't showing. Please use borderless windowed mode to see the overlay.
