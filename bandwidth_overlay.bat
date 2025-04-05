@@ -1,3 +1,4 @@
 @echo off
-start "" /B pythonw bandwidth_overlay.py
+start "" /B "D:\bandwidth overlay\dist\bandwidth_overlay.exe"
 exit /b
+
