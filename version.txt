@@ -16,7 +16,7 @@ VSVersionInfo(
         '040904B0',
         [
           StringStruct('CompanyName', 'DAHAAHA'),
-          StringStruct('FileDescription', 'It's a simple bandwidth overlay that shows download and upload speed, as well as ping if it exceeds a certain limit, in red text.'),
+          StringStruct('FileDescription', "It's a simple bandwidth overlay that shows download and upload speed, as well as ping if it exceeds a certain limit, in red text."),
           StringStruct('FileVersion', '0.9.0.1'),
           StringStruct('InternalName', 'BandwidthOverlay'),
           StringStruct('LegalCopyright', '© thenameissubhan'),
